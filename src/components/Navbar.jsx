@@ -7,7 +7,7 @@ const Navbar = () => {
   const pathName = usePathname();
 
   return (
-    <nav className="flex flex-col xl:flex-row gap-5 xl:gap-10">
+    <nav className="flex flex-col xl:flex-row gap-5 xl:gap-10 items-center">
       <Link
         href="/"
         className={`${
@@ -38,10 +38,12 @@ const Navbar = () => {
       <Link
         href="/contact"
         className={`${
-          pathName === "/contact" ? "text-accent border-b-2 border-accent" : ""
+          pathName === "/contact" ? "text-accent border-accent" : ""
         } capitalize font-medium hover:text-accent transition-colors duration-300 ease-in-out`}
       >
-        <Button className="rounded-2xl border border-accent">Contact me</Button>
+        <Button className="rounded-2xl border border-accent animate-border-animation py-0">
+          Contact me
+        </Button>
       </Link>
     </nav>
   );

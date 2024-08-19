@@ -33,18 +33,18 @@ const config = {
         }
       },
       keyframes: {
-        "accordion-down": {
-          from: { height: "0" },
-          to: { height: "var(--radix-accordion-content-height)" },
-        },
-        "accordion-up": {
-          from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: "0" },
+        "border-animation": {
+          "0%": { borderColor: "rgba(255, 116, 241, 1)", borderWidth: "2px" },
+          "25%": { borderColor: "rgba(0, 225, 135, 1)", borderWidth: "4px" },
+          "50%": { borderColor: "rgba(255, 116, 241, 1)", borderWidth: "2px" },
+          "75%": { borderColor: "rgba(0, 225, 135, 1)", borderWidth: "4px" },
+          "100%": { borderColor: "rgba(255, 116, 241, 1)", borderWidth: "2px" },
         },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        
       },
     },
   },
