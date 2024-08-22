@@ -1,4 +1,6 @@
 import Link from "../../node_modules/next/link";
+import { GoArrowLeft } from "react-icons/go";
+
 
 export default function NotFound(){
   return(
@@ -8,8 +10,8 @@ export default function NotFound(){
         <p className="mt-5 text-lg text-gray-600">It seems you&apos;ve lost your way</p>
         <p className="mt-5 mb-5 text-lg text-gray-500">But don&apos;t worry, I&apos;ll help you get back to Home.</p>
         <Link legacyBehavior href="/">
-        <a className="mt-10 px-6 py-3 bg-blue-600 text-white text-lg font-medium rounded-md shadow hover:bg-blue-700 transition duration-300">
-          Take Me Home
+        <a className="flex  items-center mt-10 px-6 py-3 bg-blue-600 text-white text-lg font-medium rounded-md shadow hover:bg-blue-700 transition duration-300">
+        <span className="mr-2"><GoArrowLeft /></span>Take Me Home
         </a>
         </Link>
       </div>
