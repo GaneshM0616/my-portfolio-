@@ -11,6 +11,7 @@ function HomePageImage() {
         width={350} // Reduced width
         height={300} // Reduced height
         className="object-contain"
+
       />
     </div>
   )

@@ -17,13 +17,13 @@ function Details() {
         <p className='mt-5 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>
           I&apos;m
         </p>
-        <div className='mt-3 text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-6xl'>
+        <div className='mt-3 text-4xl sm:text-xl md:text-3xl lg:text-4xl xl:text-6xl'>
           <AnimatedTextInHomePage text="Ganesh" />
         </div>
         <div className='mt-3 text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl'>
           <AnimatedTextInHomePage text="Software Developer" />
         </div>
-        <p className="mt-4 text-sm sm:text-base md:text- lg:text-xl xl:text-xl text-gray-700">
+        <p className="mt-4 text-base sm:text-base md:text-lg lg:text-[20px] xl:text-[20px] text-gray-600">
           I&apos;m a passionate developer with a knack for creating functional and well-designed web applications.
         </p>
       </div>

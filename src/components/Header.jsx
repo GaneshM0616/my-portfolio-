@@ -6,13 +6,13 @@ import Navbar from "@/components/Navbar";
 import { AiOutlineSetting } from "react-icons/ai";
 import { IoHomeOutline } from "react-icons/io5";
 import { FiUser } from "react-icons/fi";
-//import { PiSuitcaseSimple } from "react-icons/pi";
+
 import { TbCodeCircle2 } from "react-icons/tb";
 
 function Header() {
   return (
     <header
-      className="mt-10 w-[75%] mx-auto xl:py-2 xl:w-[75%] sm:w-[100%] px-3 sticky top-0 text-white bg-transparent left-0 right-0 shadow-lg rounded-3xl border border-gray-300/40 backdrop-blur-lg
+      className="mt-10 w-[75%] mx-auto xl:py-2 xl:w-[75%] sm:w-[100%] px-1 sticky top-0 text-white bg-transparent left-0 right-0 shadow-lg rounded-3xl border border-gray-300/40 backdrop-blur-lg
     py-2"
     >
       <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-accent to-transparent h-px" />

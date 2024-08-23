@@ -4,8 +4,8 @@ import { GoArrowLeft } from "react-icons/go";
 
 export default function NotFound(){
   return(
-     <div className="flex justify-center items-center min-h-screen">
-      <div className=" mt-36 flex flex-col items-center text-center max-w-lg px-4">
+    <div className="flex justify-center items-center">
+      <div className=" mt-14 flex flex-col items-center text-center max-w-lg px-4">
         <h1 className="text-red-600 text-5xl"> Oops!</h1>
         <p className="mt-5 text-lg text-gray-600">It seems you&apos;ve lost your way</p>
         <p className="mt-5 mb-5 text-lg text-gray-500">But don&apos;t worry, I&apos;ll help you get back to Home.</p>
