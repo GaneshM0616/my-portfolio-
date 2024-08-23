@@ -3,19 +3,19 @@ import HomePageImage from "@/components/HomePageImage";
 
 export default function Home() {
   return (
-    <main className="mt-8 flex  justify-center min-h-screen">
-      <div className="flex w-full max-w-5xl p-4">
-        <div className="flex-5">
-        <Details />
+    <main className="mt-10 flex flex-col lg:flex-row justify-center min-h-screen">
+      <div className="flex flex-col lg:flex-row w-full max-w-5xl p-4 space-y-8 lg:space-y-0 lg:space-x-8 gap-2">
+        <div className="flex-1">
+          <Details />
         </div>
-        <div className="flex-5">
-        <HomePageImage />
+        <div className="flex-1">
+          <HomePageImage />
         </div>
-        
       </div>
     </main>
   );
 }
+
 
 // import React from 'react';
 
