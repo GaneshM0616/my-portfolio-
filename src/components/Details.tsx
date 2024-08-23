@@ -27,8 +27,21 @@ function Details() {
           I&apos;m a passionate developer with a knack for creating functional and well-designed web applications.
         </p>
       </div>
-      <div className='flex flex-col items-center lg:items-start mt-10 space-y-5 lg:space-y-0 lg:flex-row lg:gap-5'>
-        <Button className='bg-transparent border border-accent hover:bg-transparent rounded-lg py-3 px-6'>
+      <div className='flex flex-col  items-center lg:items-start mt-10 space-y-5 lg:space-y-0 lg:flex-row lg:gap-5'>
+        <Button as="a" href='/GaneshResume.pdf' download
+          className='bg-transparent border border-accent hover:bg-transparent rounded-full py-3 px-6 transition-all duration-300'
+          style={{
+            transform: 'translateZ(0)',
+            willChange: 'transform',
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.transform = 'translateZ(2px) translateY(-1px) scale(1.05)';
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.transform = 'translateZ(0) translateY(0) scale(1)';
+          }}
+        >
+
           Download Resume <span className='ml-2'><FiDownload size={21} /></span>
         </Button>
         <div className='lg:ml-10 flex flex-wrap justify-center lg:justify-start gap-5'>
